@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>😀 Ecom -cart</title>
+</head>
+
+<body>
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Ecom||Online shopping</title>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <nav class="navbar navbar-expand-lg" style="background-color: #B5C18E;">
+            <div class="container-fluid">
+              <a class="navbar-brand nav-link" href="Home.html"><i class="fa fa-meetup" style="font-size:36px"></i> Royal~Mart</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Home.html"><i style="font-size:24px"
+                      class="fa">&#xf015;</i> Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Product.html"><i style="font-size:24px" class="fa">&#xf288;</i> Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Contact.html"><i class="material-icons">&#xe0ba;</i> Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Cart.html"><i style="font-size:24px" class="fa">&#xf07a;</i> Cart<sup id="cart"><b>0</b></sup></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="row" style="height: 100vh">
+        <div class="col">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">images</th>
+                <th scope="col">price</th>
+                <th scope="col">Quant</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody id="cart-temp">
+            </tbody>
+          </table>
+        </div>
+        <div class="col" id="priceTemplate">
+          <div class="card">
+            <div class="card-body" id="price-body">
+              <p>price:<b id="price">635</b></p>
+              <p>shipping charge:25</p>
+              <hr />
+              <h6>Total:<b id="totalprice">700</b></h6>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <a href="./Home.html" class="footer-link">Home</a>|
+                  <a href="./Contact.html" class="footer-link">Contact</a>|
+                  <a href="./Product.html" class="footer-link">Product</a>
+                </div>
+                <div class="col text-end">
+                  &copy; 2024 All rights reserved to Vishal
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <script src="../js/cart.js"></script>
+    <script src="../js/CartHandler.js"></script>
+  </body>
+
+  </html>
+</body>
+
+</html>
